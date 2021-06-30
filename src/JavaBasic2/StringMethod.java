@@ -11,6 +11,6 @@ public class StringMethod {
         System.out.println(name.charAt(0));
         System.out.println(name.length());
         System.out.println(name.charAt(5));
-        System.out.println(name.substring(3, 7));
+        System.out.println(name.substring(3, 8));
     }
 }

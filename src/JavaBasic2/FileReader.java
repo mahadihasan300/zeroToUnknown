@@ -14,7 +14,7 @@ public class FileReader {
         String fileContent = "";
         while (scanner.hasNextLine()) {
             fileContent = fileContent.concat(scanner.nextLine() + "\n");
-            //System.out.println(scanner.nextLine());
+            System.out.println(scanner.nextLine());
         }
 
         FileWriter writer = new FileWriter("/H:/newWritterFile.txt");
